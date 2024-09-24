@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-03</title>
+</head>
+<body>
+    <h1>Bem Vindo!</h1>
+    <p>Este é um complexo simples de uma pagina HTML</p>
+    <h3>Listas não numeradas</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+            <ul>
+                <li>Item 2.1</li>
+                <ul>
+                    <li>Item 2.1.1</li>
+                </ul>
+            </ul>
+    </ul>
+    <h3>Listas numeradas</h3>
+    <ol>
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <ol>
+            <li>Primeiro</li>
+        </ol>
+    </ol>
+
+    <h3>Lista de Definição</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <h3>Elementos em nível de bloco</h3>
+        <p> elemento em nível de bloco sempre começa em uma nova linha e os navegadores adicionam automaticamente algum espaço (uma margem) antes e depois do elemento.</p>
+
+        <p>Um elemento de nível de bloco sempre ocupa toda a largura disponível (estende-se para a esquerda e para a direita tanto quanto possível).</p>
+
+        <p>Dois elementos de bloco comumente usados ​​são: < p > e < div >.</p>
+
+        <p>O elemento < p > define um parágrafo em um documento HTML.</p>
+
+        <p>O elemento < div > define uma divisão ou seção em um documento HTML.</p>
+
+        <h3>Div - Divisão, Seção ou Bloco</h3>
+
+        <div style="border:solid 1px; padding: 20px; margin: 20px; border-radius: 10px;">Ola eu sou uma Div!</div> 
+
+        <div style="background-color:black; color:white; padding:20px; border-radius: 20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            
+        </div>
+
+        <p>Minha mãe tem olhos <span style="color:blue;font-weight:bold;">azuis</span> e meu pai tem os olhos <span style="color:darkolivegreen;font-weight:bold;">verde escuro</span></p>
+        <span>Minha mãe tem olhos azuis</span>
+
+        <br><br><br>
+        <h3>Input - Tipos de entradas de dados</h3>
+        <label>Input do tipo Text</label>
+        <input type="text">
+        <br><br>
+        <label>Input do tipo Number</label>
+        <input type="number">
+        <br><br>
+        <label>Input do tipo Password</label>
+        <input type="password">
+        <br><br>
+        <input type="radio" value="HTML">
+        <label>HTML</label>
+        <br><br>
+        <input type="checkbox" value="CSS">
+        <label>CSS</label>
+        <br><br>
+        <input type="button" value="Botão de Ação">
+        <br><br>
+        <input type="submit" value="Botão de Submit">
+        <br><br>
+        <input type="date">
+
+
+
+        <h3>Form - Formulário</h3>
+        <form action="" method="get">
+            <label>Nome do usuário</label><br>
+            <input type="text" name="nome">
+            
+            <br><br>
+
+            <label>Placeholder</label><br>
+            <input type="text" name="placeholder" placeholder="campo que possuí placeholder">
+            
+            <br><br>
+
+            <label>Campo com Required</label><br>
+            <input type="text" name="required" required>
+            
+            <br><br>
+
+            <label>Campo com Maxlength</label><br>
+            <input type="text" name="maxlength" maxlength="15">
+            
+            <br><br>
+
+            <label>Campo com Disabled</label><br>
+            <input type="text" name="disabled"disabled>
+            
+            <br><br>
+
+            <label>Campo com Readonly</label><br>
+            <input type="text" name="readonly" readonly>
+            
+            <br><br>
+
+            <label>Campo com Value preenchido</label><br>
+            <input type="text" name="value" value="Campo com Value"><br>
+
+            <br>
+
+            <label>Campo com uma Boa Validação</label><br>
+            <input type="text" name="Boavalidacao" maxlength="8" required placeholder="Campo boa validação">
+
+            <br>
+
+            <textarea name="mensagem"></textarea><br>
+
+            <select name="opcoes">
+                <option>Opção 1</option>
+                <option>Opção 2</option>
+                <option>Opção 3</option>
+                <option>Opção 4</option>
+                <option>Opção 5</option>
+                <option>Opção 6</option>
+                <option>Opção 7</option>
+            </select>
+
+            <input type="submit">
+
+        </form>
+
+        <p> name: Nome do campo, utilizado no envio dos dados.</p>
+        <p>  value: Valor padrão do campo.</p>
+        <p>  placeholder: Texto exibido dentro do campo até que o usuário comece a digitar.</p>
+        <p>  required: Torna o campo obrigatório.´</p>
+        <p>  maxlength: Limita o número de caracteres inseridos.</p>
+        <p>  disabled: Desabilita o campo, impedindo interação.</p>
+        <p>  readonly: Torna o campo apenas leitura.</p>
+
+
+
+</body>
+</html>
