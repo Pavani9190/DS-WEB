@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Bem-Estar</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        header {
+            background-color: rgb(7, 190, 108);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .content {
+            flex: 1;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px; 
+        }
+
+        p, a {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        a {
+            color: rgb(7, 190, 108);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(7, 190, 108);
+            color: white;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        .form-container {
+            background-color: rgb(50, 122, 75);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            margin-top: 10px;
+            display: block;
+            font-weight: bold;
+        }
+
+        input, select, button {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: white;
+            color: rgb(50, 122, 75);
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saúde e Bem-estar</h1>
+    </header>
+
+    <div class="content">
+        <button onclick="alert('Você clicou no botão!')" style="height: 60px; width: 150px; color: black; background-color: rgb(7, 190, 108); border: none; border-radius: 5px; cursor: pointer;">Clique Aqui</button>
+        
+        <div align="right" style="margin-left: 515px; margin-right: 515px;"> 
+            <img align="left" src="saude.jpg" alt="Imagem de Saúde" style="width: 200px; height: 200px;"> 
+            <img align="right" src="comentarios.png" alt="Saúde" style="width: 200px; height: 200px;">
+        </div>
+        <br><br><br><br>
+        <br><br><br>
+
+        <p>A saúde é um estado de completo bem-estar físico, mental e social, e não apenas a ausência de doenças.</p>
+        <p>É importante manter hábitos saudáveis para garantir uma vida longa e feliz.</p>
+
+        <a href="https://www.gov.br/saude/pt-br" target="_blank">Visite o site do Ministério da Saúde</a>
+
+        <h2>Tabela de Exemplos de Atividades Físicas</h2>
+        <table>
+            <tr>
+                <th>Atividade</th>
+                <th>Duração (minutos)</th>
+                <th>Calorias Queimadas</th>
+            </tr>
+            <tr>
+                <td>Corrida</td>
+                <td>30</td>
+                <td>300</td>
+            </tr>
+        </table>
+
+        <h2>Lista de Benefícios da Atividade Física</h2>
+        <ol>
+            <li>Melhora a saúde cardiovascular</li>
+            <li>Aumenta a força muscular</li>
+            <li>Ajuda na perda de peso</li>
+        </ol>
+
+        <div class="form-container">
+            <h2>Formulário de Cadastro</h2>
+            <form>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+
+                <label for="data-nascimento">Data de nascimento:</label>
+                <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+                <label for="endereco">Endereço completo:</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
