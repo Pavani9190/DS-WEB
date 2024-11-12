@@ -1,0 +1,47 @@
+p {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+.shadow {
+    text-shadow: 2px 1px  #ff0000;
+}
+
+.shadow-blur {
+    text-shadow: 2px 1px 5px #00ff00;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline-underline{
+text-decoration: overline underline;
+}

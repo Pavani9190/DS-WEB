@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 70px;
+            height: 70px;
+        }
+        body {
+            background-image: url('sky.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container{
+            height: 450px;
+            width: 800px;
+            background-color: antiquewhite;
+            border: 1px solid white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            margin: 0 auto;
+            border-radius: 2px;
+            
+        }
+        video{
+            width: 800px;
+            border: 5px solid white;
+            border-radius: 5px;
+            height: 450px;
+        }
+        .menu-top{
+            position: sticky;
+            width: 100%;
+            padding: 20px;
+            padding-left: 200px;
+            background-color: white;
+            top: 0;
+            display: flex;
+        }
+        .tittle{
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-top">
+        <img src="moon.svg">
+        <h1 class="tittle">Página Home</h1>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <video src="Acústico 1Kilo - Deixe-me Ir (Baviera, Knust e Pablo Martins).mp4" autoplay muted controls loop></video>
+    </div>
+    
+</body>
+</html>
