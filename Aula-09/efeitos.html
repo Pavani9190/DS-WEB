@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efeitos</title>
+  <style>
+
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(120deg,  #f254cd, #f45f9d, #ffe2e2);
+      background-size: 300% 300%;
+      animation: AnimacaodeFundo 8s infinite alternate;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden; /*O overflow:hidden ele indica que o conteúdo que ultrapassa o tamanho de um elemento deve ser cortado e não ficar visível ☝ */
+    }
+
+    @keyframes AnimacaodeFundo {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+
+    .container {
+      display: flex;
+      flex-wrap: wrap; /*O flex-wrap:wrap ele é uma propriedade do CSS que permite que os itens flexíveis sejam quebrados em novas linhas, caso não caibam na largura do container ☝ */
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+   
+    .box {
+      width: 150px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 12px;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.4s ease, opacity 0.4s ease, border-radius 0.4s ease;
+    }
+
+    
+    .scale:hover {
+      transform: scale(1.3);
+      background: rgba(67, 206, 162, 0.9);
+    }
+
+    
+    .rotate:hover {
+      transform: rotate(90deg);
+      background: rgba(239, 71, 111, 0.9);
+    }
+
+   
+    .translate:hover {
+      transform: translate(20px, -20px);
+      background: rgba(38, 84, 124, 0.9);
+    }
+
+    
+    .border-radius:hover {
+      border-radius: 50%;
+      background: rgba(123, 67, 151, 0.9);
+    }
+
+    
+    .opacity:hover {
+      opacity: 0.6;
+      background: rgba(255, 193, 7, 0.9);
+    }
+
+    
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    .animation:hover {
+      animation: pulse 0.8s infinite;
+      background: rgba(52, 58, 64, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box scale">Transform: Scale</div>
+    <div class="box rotate">Transform: Rotate</div>
+    <div class="box translate">Transform: Translate</div>
+    <div class="box border-radius">Border-Radius</div>
+    <div class="box opacity">Opacity</div>
+    <div class="box animation">@Keyframes + Animation</div>
+  </div>
+</body>
+</html>
