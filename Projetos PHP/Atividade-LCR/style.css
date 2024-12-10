@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fef6f0; /* Fundo suave inspirado em flores */
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #6a1b9a; /* Roxo floral */
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 20px; /* Adaptação para responsividade */
+}
+
+.form-box {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #e1bee7; /* Roxo claro */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-box:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ad1457; /* Rosa marcante */
+    background: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+}
+
+.input:focus ~ label, .input:valid ~ label {
+    top: -10px;
+    font-size: 14px;
+    color: #6a1b9a; /* Roxo floral */
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #ad1457; /* Rosa marcante */
+    transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+.input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #ad1457;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+/* Botão personalizado */
+#bottone5 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #6a1b9a; /* Roxo floral */
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+    border-color: #ad1457; /* Rosa */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #ad1457;
+}
+
+#bottone5:hover {
+    transform: translateY(-1px);
+}
+
+#bottone5:active {
+    background-color: #f8bbd0; /* Rosa claro */
+    border-color: #ad1457;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: #ad1457;
+    transform: translateY(0);
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #e1bee7; /* Roxo claro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8bbd0; /* Rosa claro */
+    color: #6a1b9a;
+}
+
+/* Estilo para o botão "Sair" */
+.sair-btn {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #d32f2f; /* Vermelho para indicar ação de sair */
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+/* Efeito de hover no botão "Sair" */
+.sair-btn:hover,
+.sair-btn:focus {
+    border-color: #c62828; /* Vermelho mais forte */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #c62828;
+}
+
+.sair-btn:hover {
+    transform: translateY(-1px);
+}
+
+.sair-btn:active {
+    background-color: #f8bbd0; /* Rosa claro */
+    border-color: #c62828;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: #c62828;
+    transform: translateY(0);
+}
