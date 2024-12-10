@@ -2,13 +2,13 @@
 session_start();
 include_once('connection.php');
 
-// Verifica se o usuário já está logado
+
 if (isset($_SESSION['usuario']) || isset($_COOKIE['usuario'])) {
     header("Location: dash.php");
     exit();
 }
 
-// Processa o login
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $usuario = $_POST['usuario'] ?? '';
     $senha = $_POST['senha'] ?? '';

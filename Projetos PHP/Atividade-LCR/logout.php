@@ -1,8 +1,8 @@
 <?php
 session_start();
-session_destroy(); // Destrói a sessão
+session_destroy(); 
 
-// Apaga o cookie se existir
+
 if (isset($_COOKIE['usuario'])) {
     setcookie('usuario', '', time() - 3600, '/');
 }

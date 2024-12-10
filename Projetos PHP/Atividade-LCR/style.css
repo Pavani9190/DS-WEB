@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #fef6f0; /* Fundo suave inspirado em flores */
+    background-color: #fef6f0; 
     color: #333;
 }
 
 h1, h2 {
     text-align: center;
-    color: #6a1b9a; /* Roxo floral */
+    color: #6a1b9a; 
 }
 
 .form-container {
@@ -15,13 +15,13 @@ h1, h2 {
     justify-content: space-between;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    gap: 20px; /* Adaptação para responsividade */
+    gap: 20px; 
 }
 
 .form-box {
     width: 45%;
     padding: 20px;
-    border: 1px solid #e1bee7; /* Roxo claro */
+    border: 1px solid #e1bee7; 
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ h1, h2 {
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 2px solid #ad1457; /* Rosa marcante */
+    border-bottom: 2px solid #ad1457;
     background: transparent;
 }
 
@@ -65,7 +65,7 @@ label {
 .input:focus ~ label, .input:valid ~ label {
     top: -10px;
     font-size: 14px;
-    color: #6a1b9a; /* Roxo floral */
+    color: #6a1b9a; 
 }
 
 .bar {
@@ -80,7 +80,7 @@ label {
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #ad1457; /* Rosa marcante */
+    background: #ad1457; 
     transition: 0.2s ease all;
 }
 
@@ -120,7 +120,7 @@ label {
     }
 }
 
-/* Botão personalizado */
+
 #bottone5 {
     align-items: center;
     background-color: #ffffff;
@@ -128,7 +128,7 @@ label {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     box-sizing: border-box;
-    color: #6a1b9a; /* Roxo floral */
+    color: #6a1b9a; 
     cursor: pointer;
     display: inline-flex;
     font-family: 'Arial', sans-serif;
@@ -149,7 +149,7 @@ label {
 
 #bottone5:hover,
 #bottone5:focus {
-    border-color: #ad1457; /* Rosa */
+    border-color: #ad1457; 
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     color: #ad1457;
 }
@@ -159,14 +159,14 @@ label {
 }
 
 #bottone5:active {
-    background-color: #f8bbd0; /* Rosa claro */
+    background-color: #f8bbd0; 
     border-color: #ad1457;
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
     color: #ad1457;
     transform: translateY(0);
 }
 
-/* Tabela */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -174,7 +174,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #e1bee7; /* Roxo claro */
+    border: 1px solid #e1bee7; 
 }
 
 th, td {
@@ -183,17 +183,17 @@ th, td {
 }
 
 th {
-    background-color: #f8bbd0; /* Rosa claro */
+    background-color: #f8bbd0; 
     color: #6a1b9a;
 }
 
-/* Estilo para o botão "Sair" */
+
 .sair-btn {
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    color: #d32f2f; /* Vermelho para indicar ação de sair */
+    color: #d32f2f; 
     cursor: pointer;
     display: inline-flex;
     font-family: 'Arial', sans-serif;
@@ -211,10 +211,10 @@ th {
     vertical-align: baseline;
 }
 
-/* Efeito de hover no botão "Sair" */
+
 .sair-btn:hover,
 .sair-btn:focus {
-    border-color: #c62828; /* Vermelho mais forte */
+    border-color: #c62828; 
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     color: #c62828;
 }
@@ -224,7 +224,7 @@ th {
 }
 
 .sair-btn:active {
-    background-color: #f8bbd0; /* Rosa claro */
+    background-color: #f8bbd0; 
     border-color: #c62828;
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
     color: #c62828;
