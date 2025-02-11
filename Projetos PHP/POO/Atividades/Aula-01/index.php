@@ -167,14 +167,17 @@ $conta3 = new ContaBancaria(54372238, "Gustavo Sartorelli", 6377.45);
 echo $conta1->exibirDados() . "\n";
 echo $conta1->sacar(300.00) . "\n";
 echo $conta1->depositar(200.00) . "\n\n" ;
+echo "<br><br>";
 
 echo $conta2->exibirDados() . "\n";
 echo $conta2->sacar(100.00) . "\n";
 echo $conta2->depositar(900.00) . "\n\n";
+echo "<br><br>";
 
 echo $conta3->exibirDados() . "\n";
 echo $conta3->sacar(500.00) . "\n";
 echo $conta3->depositar(150.00) . "\n";
+echo "<br><br>";
 
 
 
