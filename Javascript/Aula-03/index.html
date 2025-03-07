@@ -3,63 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            font-family: "Montserrat", sans-serif;
-        }
-
-        body {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    
-
-        input[type="text"] {
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 80%;
-            margin-bottom: 10px;
-        }
-
-        input[type="submit"]:hover {
-            transition: all 0.3s;
-            background-color: #1d1d1deb;
-            color: #fff;
-            font-weight: bold;
-            border: none;
-            padding: 10px;
-            font-size: 16px;
-            width: 48%;
-            border-radius: 8px;
-        }
-
-        .block {
-            display: block;
-        }
-
-
-
-    </style>
+    <title>Login</title>
 </head>
 <body>
+
     <div class="login">
-        <h1 style="text-align: center">Sistema Login</h1> <br>
-        <label style="text-align: start">Usuário:</label> <br>
-        <input type="text" class="block" name="nome" id="usuario" required autofocus placeholder="insira seu nome"> <br><br>
-        <label style="text-align: start">Insira uma descrição:</label> <br>
-        <input type="text" class="block" name="descri" id="descri" required autofocus placeholder="insira uma descricao"> <br><br>
-        <input type="submit" class="block"  onclick="card()"  value="Enviar"> <br><br><br><br><br><br><br><br><br>
-        <div class="cartoes"></div>
+        <h1>Sistema Login</h1> 
+        <br>
+        <label for="usuario">Usuário:</label>
+        <input type="text" name="nome" id="usuario" required placeholder="Insira seu nome">
+        
+        <label for="descricao">Insira uma descrição:</label>
+        <input type="text" name="descricao" id="descricao" required placeholder="Insira uma descrição">
+
+        <input type="submit" onclick="card()" value="Enviar">
     </div>
 
     <h2>Cartões Adicionados:</h2>
+    <div class="cartoes" id="cartoes"></div>
+
+    <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
 </html>
