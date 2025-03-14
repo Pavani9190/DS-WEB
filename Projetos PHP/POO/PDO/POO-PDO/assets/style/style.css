@@ -1,0 +1,175 @@
+/* Reset básico */
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo principal */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 0px;
+}
+
+/* Estilização do menu */
+.menu {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+    padding-inline-start: 0em;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+li {
+    padding: 0 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+li .meumenu {
+    font-family: 'open_sansbold';
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #4c4c4c;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.3s linear;
+}
+
+li .meumenu:hover {
+    border-bottom: 4px solid #28a745;
+}
+
+li .meumenu-active {
+    border-bottom: 4px solid #4c4c4c;
+}
+
+/* Contêiner principal */
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    margin-top: 20px;
+}
+
+/* Formulários */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Botão */
+input[type="submit"],
+.button-cta {
+    width: 100%;
+    height: 40px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover,
+.button-cta:hover {
+    background-color: #218838;
+}
+
+/* Links de edição e exclusão */
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+a[href*="update.php"] {
+    background-color: #007bff;
+    color: white;
+}
+
+a[href*="delete.php"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+a[href*="update.php"]:hover {
+    background-color: #0056b3;
+}
+
+a[href*="delete.php"]:hover {
+    background-color: #b52b38;
+}
+
+/* Títulos */
+h1{
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}

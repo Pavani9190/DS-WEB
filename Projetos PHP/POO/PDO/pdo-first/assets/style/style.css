@@ -1,0 +1,123 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Montserrat", sans-serif
+}
+
+/* Código CSS do Menu Horizontal*/
+ul {
+    padding-inline-start: 0em;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    list-style: none;
+}
+li .meumenu {
+   font-family: 'open_sansbold';
+   font-size: 1.6em;
+   text-decoration: none;
+   color: #4c4c4c;
+   border: 0 1px 0 0 #4c4c4c;
+   border-bottom: 4px solid transparent;
+   transition: border-bottom .3s linear;
+}
+li .meumenu:hover {
+    border-bottom: 4px solid rgba(157, 1, 157, 0.909);
+}
+
+li .meumenu-active {
+    border-bottom: 4px solid #4c4c4c;
+}
+
+
+/* Código CSS do Conteudo da pagina */
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 30px 30px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    width: 100%;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(157, 1, 157, 0.909);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input:hover[type=submit] {
+    background-color: rgb(139, 0, 139);
+}
+.erro-input {
+    color: red;
+    font-size: 15px;
+}
+
+
+    #clientes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+    #clientes td, #clientes th {
+        text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+    #clientes tr:nth-child(even){
+    background-color: #e6e6e6;
+}
+  
+    #clientes tr:hover {
+    background-color: #ddd;
+}
+  
+    #clientes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(157, 1, 157, 0.909);
+    color: white;
+  }
+
+
+  #clientes a{
+    text-decoration: mome;
+    color: black;
+  }
+
+  
