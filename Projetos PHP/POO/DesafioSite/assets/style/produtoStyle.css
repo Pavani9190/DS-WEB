@@ -1,0 +1,115 @@
+body {
+    background-color: #e3f6f0;
+}
+
+/* Código CSS do Menu Horizontal*/
+ul {
+    padding-inline-start: 0em; 
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    list-style: none;
+}
+li .meumenu {
+    font-family: 'open_sansbold';
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #4c8ca7;
+    border: 0 1px 0 0 #087ba1;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom .3s linear;
+}
+li .meumenu:hover {
+    border-bottom: 4px solid #087ba1;
+}
+li .meumenu-active {
+    border-bottom: 4px solid #5f829a;
+}
+
+/* Código CSS do Conteúdo da página */
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 30px 30px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    width: 100%;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #087ba1;
+    color: rgb(245, 240, 240);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #5f829a;;
+}
+.erro-input{
+    color:red;
+    font-size: 15px;
+}
+
+
+#produtos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#produtos td, #produtos th {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#produtos tr:nth-child(even) {
+    background-color: #d1d1d1;
+}
+
+#produtos tr:hover {
+    background-color: #ddd;
+}
+
+#produtos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #087ba1;
+    color: rgb(227, 224, 224);
+}
+
+#produtos a{
+    text-decoration: none;
+    color: black
+}
+

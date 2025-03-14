@@ -51,6 +51,7 @@ label {
     margin-bottom: 20px;
 }
 
+
 .input-group div {
     width: 48%; 
 }
@@ -58,7 +59,7 @@ label {
 input[type="text"],
 input[type="number"],
 input[type="file"] {
-    padding: 10px;
+    padding: 10px; 
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
