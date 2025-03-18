@@ -10,10 +10,13 @@
 <body>
     <div class="menu">
         <ul>
-            <li><a href="index.php" class="meumenu" title="Home">Home</a></li>
+            <li><a href="intro.php" class="meumenu" title="Home">Home</a></li>
             <li><a href="cliente.php" class="meumenu meumenu-active" title="Clientes">Clientes</a></li>
             <li><a href="produto.php" class="meumenu" title="Produtos">Produtos</a></li>
             <li><a href="#" class="meumenu" title="Vendas">Vendas</a></li>
+            <li>
+                <a href="logout.php" class="logout-btn">Sair</a>
+            </li>
         </ul>
     </div>
     <div class="container">

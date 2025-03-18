@@ -113,3 +113,29 @@ input[type=submit]:hover {
     color: black
 }
 
+/* Estilo para o botão de logout */
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Cor de fundo vermelha */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent; /* Borda inicial transparente */
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #ff1a1a; /* Cor de fundo ao passar o mouse */
+    border-color: #e60000; /* Cor da borda ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento no tamanho do botão */
+}
+
+.logout-btn:focus {
+    outline: none; /* Remove o contorno ao clicar */
+}
+

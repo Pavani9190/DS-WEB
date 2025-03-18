@@ -10,34 +10,47 @@
 <body>
     <div class="menu">
         <ul>
-            <li><a href="index.php" class="meumenu" title="Home">Home</a></li>
+            <li><a href="intro.php" class="meumenu" title="Home">Home</a></li>
             <li><a href="cliente.php" class="meumenu" title="Clientes">Clientes</a></li>
             <li><a href="produto.php" class="meumenu meumenu-active" title="Produtos">Produtos</a></li>
             <li><a href="#" class="meumenu" title="Vendas">Vendas</a></li>
+            <li>
+                <a href="logout.php" class="logout-btn">Sair</a>
+            </li>
         </ul>
     </div>
     <div class="container">
         <hr>
         <div class="formulario">
-            <form action="produtoInsertion.php" method="POST" name="formulario" onsubmit="return validarDadosProduto()">
-                <label for="codigo">Código do Produto: </label>
-                <input type="number" name="codigo" id="codigo">
-                <p class="erro-input" id="erro-codigo"></p>
+        <form action="produtoInsertion.php" method="POST" name="formulario" onsubmit="return validarDadosProduto()">
+            <label for="codigo">Código do Produto: </label>
+            <input type="number" name="codigo" id="codigo" value="<?php echo isset($_POST['codigo']) ? $_POST['codigo'] : ''; ?>">
+            <p class="erro-input" id="erro-codigo"><?php echo isset($_SESSION['erroCodigo']) ? $_SESSION['erroCodigo'] : ''; ?></p>
 
-                <label for="nome">Nome do Produto: </label>
-                <input type="text" name="nome" id="nome">
-                <p class="erro-input" id="erro-nome"></p>
+            <label for="nome">Nome do Produto: </label>
+            <input type="text" name="nome" id="nome" value="<?php echo isset($_POST['nome']) ? $_POST['nome'] : ''; ?>">
+            <p class="erro-input" id="erro-nome"><?php echo isset($_SESSION['erroNome']) ? $_SESSION['erroNome'] : ''; ?></p>
 
-                <label for="estoque">Estoque: </label>
-                <input type="number" name="estoque" id="estoque">
-                <p class="erro-input" id="erro-estoque"></p>
+            <label for="estoque">Estoque: </label>
+            <input type="number" name="estoque" id="estoque" value="<?php echo isset($_POST['estoque']) ? $_POST['estoque'] : ''; ?>">
+            <p class="erro-input" id="erro-estoque"><?php echo isset($_SESSION['erroEstoque']) ? $_SESSION['erroEstoque'] : ''; ?></p>
 
-                <label for="preco">Preço: </label>
-                <input type="text" name="preco" id="preco">
-                <p class="erro-input" id="erro-preco"></p>
+            <label for="preco">Preço: </label>
+            <input type="text" name="preco" id="preco" value="<?php echo isset($_POST['preco']) ? $_POST['preco'] : ''; ?>">
+            <p class="erro-input" id="erro-preco"><?php echo isset($_SESSION['erroPreco']) ? $_SESSION['erroPreco'] : ''; ?></p>
 
-                <input type="submit" value="Cadastrar Produto"> <br><br><br>
-            </form>
+            <input type="submit" value="Cadastrar Produto">
+            <br><br>
+        </form>
+
+        <?php
+        session_start();
+        unset($_SESSION['erroNome']);
+        unset($_SESSION['erroCodigo']);
+        unset($_SESSION['erroPreco']);
+        unset($_SESSION['erroEstoque']);
+        ?>
+
         </div>
 
         <table id="produtos">
