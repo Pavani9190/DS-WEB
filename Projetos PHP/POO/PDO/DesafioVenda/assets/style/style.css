@@ -1,0 +1,257 @@
+body {
+    background-color: #f4f4f4;
+}
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 30px 30px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    width: 100%;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input:hover[type=submit] {
+    background-color: #218838;
+}
+
+/* Mensagens de erro */
+.erro-input {
+    color: red;
+    font-size: 15px;
+}
+
+/* Tirando estilo de links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Código CSS do Menu Horizontal*/
+ul {
+    width: 100%; 
+    float: left; 
+    text-align: center; 
+    padding-inline-start: 0px;
+}
+li {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    list-style: none;
+}
+li .meumenu {
+   font-family: 'open_sansbold';
+   font-size: 1.6em;
+   text-decoration: none;
+   color: #4c4c4c;
+   border: 0 1px 0 0 #4c4c4c;
+   border-bottom: 4px solid transparent;
+   transition: border-bottom .3s linear;
+}
+li .meumenu:hover {
+    border-bottom: 4px solid #4c4c4c;
+}
+li .meumenu-active {
+    border-bottom: 4px solid #4c4c4c;
+}
+
+
+/* Estilizando a tabela de consulta de clientes */
+
+#clientes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #clientes td, #customers th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #clientes tr:nth-child(even){background-color: #e6e6e6;}
+  
+  #clientes tr:hover {background-color: #ddd;}
+  
+  #clientes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+/* Estilizando a tabela de consulta de Produtos */
+
+#produtos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #produtos td, #customers th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #produtos tr:nth-child(even){background-color: #e6e6e6;}
+  
+  #produtos tr:hover {background-color: #ddd;}
+  
+  #produtos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;;
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+  }
+
+
+/* Estilizando a tela de Vendas */
+
+/* Mensagens de aviso */
+#aviso {
+    color: red;
+    font-size: 12px;
+}
+
+
+
+/* Estilizando a tabela de carrinho */
+
+#tabelaCarrinho {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tabelaCarrinho td, #customers th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tabelaCarrinho tr:nth-child(even){background-color: #e6e6e6;}
+  
+  #tabelaCarrinho tr:hover {background-color: #ddd;}
+  
+  #tabelaCarrinho th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;;
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+  }
+
+
+
+  /* Estilizando tabela de consulta de vendas e produtos vendidos*/
+
+  .venda {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .venda h3 {
+      color: #444;
+      margin-bottom: 10px;
+  }
+
+  .cliente {
+      margin-bottom: 10px;
+  }
+
+  .produtos table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  .produtos th, .produtos td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      text-align: left;
+  }
+
+  .produtos th {
+      background-color: #f0f0f0;
+  }
+
+  .filtro {
+      margin-bottom: 30px;
+      padding: 15px;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+  }
+
+  .filtro form {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .filtro label {
+      font-weight: bold;
+  }
+
+  .filtro input, .filtro select, .filtro button {
+      padding: 6px 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+
+  .voltar {
+      margin-bottom: 20px;
+  }
+
+  .voltar a {
+      text-decoration: none;
+      background-color: #4caf50;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+  }
