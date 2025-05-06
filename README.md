@@ -37,7 +37,7 @@ Este repositório é um **portfólio prático** das atividades que desenvolvi ao
 
 Frontend	Backend	   Banco de Dados	Outros
 
-HTML5	          PHP	       MySQL	         VS Code
+HTML5	          PHP	       MySQL	        VS Code
 
 CSS3	      Git / GitHub
 
