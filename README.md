@@ -31,37 +31,51 @@ Este repositório é um **portfólio prático** das atividades que desenvolvi ao
 ├── Javascript             # Scripts e exercícios de lógica e interação
 ├── Projetos PHP           # Sistemas com PHP e conexão com banco de dados
 └── README.md              # Documentação principal do repositório
+```
 
-🚀 Tecnologias e Ferramentas
-Frontend	Backend	Banco de Dados	Outros
-HTML5	PHP	MySQL	VS Code
-CSS3			Git / GitHub
-JavaScript			XAMPP / Apache
+## 🚀 Tecnologias e Ferramentas
 
-👨‍💻 Quem sou eu?
-🎓 Gustavo Pavani
-🧩 Técnico em Desenvolvimento de Sistemas - 3ºB
-🏫 SESI 332 - Boituva (SP)
-🎯 Apaixonado por código, aprendizado contínuo e desenvolvimento web.
+**Frontend	Backend	   Banco de Dados	Outros**
 
-💡 Objetivo do Repositório
-“Aprender fazendo.”
+HTML5	      PHP	       MySQL	    VS Code
+
+CSS3	   Git / GitHub
+
+JavaScript			   XAMPP / Apache
+
+
+
+## 👨‍💻 Quem sou eu?
+
+- *🎓 Gustavo Pavani*
+- *🧩 Técnico em Desenvolvimento de Sistemas - 3ºB*
+- *🏫 SESI 332 - Boituva (SP)*
+- *🎯 Apaixonado por código, aprendizado contínuo e desenvolvimento web.*
+
+## 💡 Objetivo do Repositório
+
+**“Aprender fazendo.”**
+
 Este repositório é meu laboratório de experiências. Ele mostra não só os acertos, mas também minha evolução — dos primeiros divs aos sistemas dinâmicos com banco de dados.
 
-🔗 Como Executar Localmente
+## 🔗 Como Executar Localmente
+
+```bash
 git clone https://github.com/Pavani9190/DS-WEB.git
 cd DS-WEB
+```
 
-Para projetos em PHP:
+## Para projetos em PHP:
 
-Instale o XAMPP
+- Instale o XAMPP
 
-Mova a pasta para htdocs
+- Mova a pasta para htdocs
 
-Acesse pelo navegador: http://localhost/DS-WEB/Projetos PHP/
+- Acesse pelo navegador: http://localhost/DS-WEB/Projetos PHP/
 
-✨ Quer me conhecer melhor?
-Se quiser entrar em contato comigo, colaborar ou conversar sobre tecnologia:
+## ✨ Quer me conhecer melhor?
+
+**Se quiser entrar em contato comigo, colaborar ou conversar sobre tecnologia:**
 
 📬 Email: gutopavani439@gmail.com
 
