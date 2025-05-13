@@ -83,7 +83,9 @@ cd DS-WEB
 If you'd like to get in touch, collaborate, or talk about technology:
 
 📬 Email: gutopavani439@gmail.com
+
 💼 LinkedIn: www.linkedin.com/in/gustavo-pavani
+
 🌍 Online Portfolio: https://github.com/Pavani9190
 
 📝 License
