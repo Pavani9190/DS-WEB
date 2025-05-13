@@ -1,89 +1,92 @@
-<h1 align="center">🌐 DS-WEB — Desenvolvimento de Sistemas para Web</h1>
+<h1 align="center">🌐 DS-WEB — Web Development Systems</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/Status-In%20Development-yellow" alt="Status">
   <img src="https://img.shields.io/github/languages/count/Pavani9190/DS-WEB" alt="Languages">
   <img src="https://img.shields.io/github/last-commit/Pavani9190/DS-WEB" alt="Last Commit">
 </p>
 
 <p align="center">
-  <em>Repositório com projetos e práticas que refletem minha evolução como desenvolvedor web no curso técnico de Desenvolvimento de Sistemas.</em>
+  <em>Repository with projects and practices that reflect my evolution as a web developer in the Systems Development technical course.</em>
 </p>
 
 ---
 
-## 🧠 Sobre o Repositório
+## 🧠 About the Repository
 
-Este repositório é um **portfólio prático** das atividades que desenvolvi ao longo do curso. Aqui você encontrará códigos reais que representam meu aprendizado com:
+This repository is a **practical portfolio** of the activities I developed throughout the course. Here you will find real code that represents my learning with:
 
-- 🎨 **HTML5 e CSS3** — criação de layouts e páginas responsivas.
-- 🧠 **JavaScript** — lógica de programação, DOM, interações dinâmicas.
-- 🛠️ **PHP** — back-end, integração com banco de dados e CRUDs.
-- 🗃️ **MySQL** — manipulação de dados e estrutura de banco.
+- 🎨 **HTML5 and CSS3** — creating layouts and responsive pages.
+- 🧠 **JavaScript** — programming logic, DOM manipulation, dynamic interactions.
+- 🛠️ **PHP** — back-end development, database integration, and CRUD operations.
+- 🗃️ **MySQL** — data manipulation and database structure.
 
 ---
 
-## 🗂️ Organização das Pastas
+## 🗂️ Folder Organization
 
 ```bash
 📦 DS-WEB
-├── Aulas HTML - CSS       # Páginas estáticas com foco em semântica e estilo
-├── Javascript             # Scripts e exercícios de lógica e interação
-├── Projetos PHP           # Sistemas com PHP e conexão com banco de dados
-└── README.md              # Documentação principal do repositório
-```
+├── Aulas HTML - CSS       # Static pages focusing on semantics and styling
+├── Javascript             # Scripts and exercises on logic and interaction
+├── Projetos PHP           # Systems with PHP and database connection
+└── README.md              # Main documentation file for the repository
+
 ```bash
-## 🚀 Tecnologias e Ferramentas
+## 🚀 Technologies and Tools
 
-Frontend	Backend	   Banco de Dados	Outros
+Frontend	Backend	   Database	Other
 
-HTML5	          PHP	       MySQL	        VS Code
+HTML5	        PHP	       MySQL	    VS Code
 
-CSS3	      Git / GitHub
+CSS3	        Git / GitHub
 
-JavaScript		  XAMPP / Apache
+JavaScript	    XAMPP / Apache
+
 ```
 
 
-## 👨‍💻 Quem sou eu?
+👨‍💻 About Me
+ - 🎓 Gustavo Pavani
 
-- *🎓 Gustavo Pavani*
-- *🧩 Técnico em Desenvolvimento de Sistemas - 3ºB*
-- *🏫 SESI 332 - Boituva (SP)*
-- *🎯 Apaixonado por código, aprendizado contínuo e desenvolvimento web.*
+ - 🧩 Technical in Systems Development - 3rd Year
 
-## 💡 Objetivo do Repositório
+ - 🏫 SESI 332 - Boituva (SP)
 
-**“Aprender fazendo.”**
+ - 🎯 Passionate about code, continuous learning, and web development.
 
-Este repositório é meu laboratório de experiências. Ele mostra não só os acertos, mas também minha evolução — dos primeiros divs aos sistemas dinâmicos com banco de dados.
+💡 Repository Purpose
 
-## 🔗 Como Executar Localmente
+ “Learning by doing.”
+
+This repository is my experimental lab. It shows not only my successes but also my growth — from simple divs to dynamic systems with databases.
+
+
+
+## 🔗 How to Run Locally
 
 ```bash
 git clone https://github.com/Pavani9190/DS-WEB.git
 cd DS-WEB
 ```
 
-## Para projetos em PHP:
+# For PHP projects:
 
-- Instale o XAMPP
+ - Install XAMPP
 
-- Mova a pasta para htdocs
+ - Move the folder to htdocs
 
-- Acesse pelo navegador: http://localhost/DS-WEB/Projetos PHP/
+ - Access it through the browser at: http://localhost/DS-WEB/Projetos PHP/
 
-## ✨ Quer me conhecer melhor?
+# ✨ Want to Know Me Better?
 
-**Se quiser entrar em contato comigo, colaborar ou conversar sobre tecnologia:**
+If you'd like to get in touch, collaborate, or talk about technology:
 
 📬 Email: gutopavani439@gmail.com
-
 💼 LinkedIn: www.linkedin.com/in/gustavo-pavani
+🌍 Online Portfolio: https://github.com/Pavani9190
 
-🌍 Portfólio Online: https://github.com/Pavani9190
+📝 License
+This project is licensed for educational and learning purposes. Feel free to use it as a base, adapt it, and evolve it alongside me.
 
-📝 Licença
-Este projeto está licenciado para fins educacionais e de aprendizado. Sinta-se à vontade para usar como base, adaptando e evoluindo junto comigo.
-
-<p align="center"> Feito com 💻 e ☕ por <strong>Gustavo Pavani</strong> </p> ```
+<p align="center"> Made with 💻 and ☕ by <strong>Gustavo Pavani</strong> </p>
