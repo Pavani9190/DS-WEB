@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aula-05</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
+            </div>
+
+            <form>
+              <div class="mb-3">
+                <label for="arquivo" class="form-label">Envie sua foto</label>
+                <input type="file" class="form-control" id="arquivo">
+              </div>
+            </form>
+            
+
+            <div class="mb-3">
+              <label for="curso" class="form-label">Selecione seu curso</label>
+              <select class="form-select" id="curso">
+                <option>Desenvolvimento de Sistemas</option>
+                <option>Informática</option>
+                <option>Redes</option>
+              </select>
+            </div>
+            
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="aceito">
+              <label class="form-check-label" for="aceito">
+                Aceito os termos e condições
+              </label>
+            </div>
+            
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="opcao" id="op1">
+              <label class="form-check-label" for="op1">Opção 1</label>
+            </div>
+            
+            <div class="form-check mt-2">
+              <input class="form-check-input" type="radio" name="opcao" id="op2">
+              <label class="form-check-label" for="op2">Opção 2</label>
+            </div>
+            
+
+            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
